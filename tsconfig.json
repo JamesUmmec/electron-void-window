@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"noImplicitAny": true,
+		"removeComments": true,
+		"sourceMap": true,
+	},
+	"include": [
+		"source",
+	],
+	"exclude": [
+		"app",
+		"build",
+		"dist",
+		"node_modules"
+	]
+}
