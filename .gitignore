@@ -3,3 +3,5 @@
 /dist
 /static
 package-lock.json
+
+/config
