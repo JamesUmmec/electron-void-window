@@ -4,9 +4,33 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 		<title>hello electron</title>
+
+		<!-- color theme -->
+		<link rel="stylesheet" href="dist/web/light.css">
+
+		<link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="dist/web/frame.css">
+		<link rel="stylesheet" href="dist/web/utils.css">
+		<link rel="stylesheet" href="dist/web/main.css">
+		<script src="dist/web/main.js"></script>
 	</head>
 
 	<body>
-		hello
+		<!-- window frame -->
+		<header>
+			<div id="icon" class="center"><img src="static/icon.svg"></div>
+			<div id="title" class="line">this is title</div>
+			<div id="win">
+				<div class="center btn" id="min"><img src="static/min.svg"></div>
+				<div class="center btn" id="max"><img src="static/max.svg"></div>
+				<div class="center btn" id="full"><img src="static/full.svg"></div>
+				<div class="center btn" id="close"><img src="static/close.svg"></div>
+			</div>
+		</header>
+
+		<!-- corner used when exit fullscreen mode -->
+		<div id="corner"><img src="static/corner.svg"></div>
+
+		<article></article>
 	</body>
 </html>
